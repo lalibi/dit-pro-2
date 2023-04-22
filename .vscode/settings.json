@@ -1,0 +1,24 @@
+{
+  "explorer.fileNesting.enabled": true,
+
+  "explorer.fileNesting.patterns": {
+    "*.c": "${capture}.h, ${capture}.exe"
+  },
+
+  "[c]": {
+    "editor.fontLigatures": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.renderWhitespace": "selection"
+  },
+
+  "[json][jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+    "clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling"
+  ]
+}
