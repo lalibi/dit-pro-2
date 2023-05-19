@@ -1,3 +1,4 @@
 _resources
 
+*.o
 *.exe

@@ -2,7 +2,7 @@
   "explorer.fileNesting.enabled": true,
 
   "explorer.fileNesting.patterns": {
-    "*.c": "${capture}.h, ${capture}.exe"
+    "*.c": "${capture}.h, ${capture}.o, ${capture}.exe"
   },
 
   "[c]": {
